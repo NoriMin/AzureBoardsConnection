@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\t-tamina\\Downloads\\AzureSignalR-samples-master\\AzureSignalR-samples-master\\samples\\ChatRoom\\ChatRoom.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\t-tamina\\Downloads\\AzureSignalR-samples-master\\AzureSignalR-samples-master\\samples\\ChatRoom\\ChatRoom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\t-tamina\\Downloads\\AzureSignalR-samples-master\\AzureSignalR-samples-master\\samples\\ChatRoom\\ChatRoom.csproj",
+        "projectName": "ChatRoom",
+        "projectPath": "C:\\Users\\t-tamina\\Downloads\\AzureSignalR-samples-master\\AzureSignalR-samples-master\\samples\\ChatRoom\\ChatRoom.csproj",
+        "packagesPath": "C:\\Users\\t-tamina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t-tamina\\Downloads\\AzureSignalR-samples-master\\AzureSignalR-samples-master\\samples\\ChatRoom\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\t-tamina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Azure.SignalR": {
+              "target": "Package",
+              "version": "[1.0.*, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
