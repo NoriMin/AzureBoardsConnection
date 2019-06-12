@@ -24,7 +24,7 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
         {
             services.AddMvc();
             services.AddSignalR()
-                    .AddAzureSignalR(); //Comment3
+                    .AddAzureSignalR(); //Comment for demo
         }
 
         public void Configure(IApplicationBuilder app)
@@ -33,7 +33,7 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
             app.UseFileServer();
             app.UseAzureSignalR(routes =>
             {
-                routes.MapHub<Chat>("/chat"); //Comment3
+                routes.MapHub<Chat>("/chat"); //Comment for demo
             });
         }
     }
