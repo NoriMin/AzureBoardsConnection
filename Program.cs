@@ -10,7 +10,7 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().Run(); //Pre Comment
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
